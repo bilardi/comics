@@ -1,0 +1,92 @@
+a:link {
+	text-decoration:none; 
+	color:#4f4d55;
+}
+a:visited {
+        text-decoration:none;
+	color:#4f4d55;
+}
+a:hover {
+ text-decoration:none;
+	color:#cc3333;
+}
+body {
+#	background-image:url(../../image/ism/background.png);
+#	background-color:#cfc9de;
+	background-color:#ffffff;
+}	
+h2 {
+	color:#0000ff;
+}
+h4 {
+	color:#cc3333;
+	text-align:left;
+}
+div.support {
+	text-align:left;
+}
+div.all {
+	font-family:Verdana, Arial, Sans-Serif;
+	font-size:large;
+	text-align:justify;
+	color:#4f4d55;
+#	color:#808080;
+#	color:#cfc9de;
+	width:990px;
+}
+div.top {
+	text-align:left;
+	height:25px;
+}
+div.new {
+	position:absolute;
+	right:0px;
+	font-style:oblique;
+	font-size:x-large;
+	font-weight:bold;
+}
+div.content {
+	text-align:center;
+}
+div.bottom {
+ font-size:small;
+	text-align:center;
+}
+div.left {
+	float:left;
+	width:170px;
+	text-align:left;
+}
+div.right {
+	float:left;	
+	width:170px;
+	text-align:right;
+}
+div.center {
+	float:left;
+	width:650px;
+}
+div.menu {
+#	position:relative;
+#	top:100px;
+	width:135px;
+	font-size:x-large;
+	font-weight:bold;
+#	font-variant:small-caps;
+	text-align:right;
+}
+p.content {
+	text-align:justify;
+}
+p.menu {
+	line-height:0.2;
+}
+p.here a {
+#	line-height:0.2;
+#	outline: thick solid #cc3333;
+	color:#cc3333;
+}
+div.passport {
+	height:150px;
+}
+

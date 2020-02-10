@@ -22,7 +22,7 @@
      {{content}}
    </div>
 		<div class='bottom'>
-			<br/>Copyright&nbsp;<!--&copy;&nbsp;-->2007-2018&nbsp;by&nbsp;<a href='http://about.me/alessandra.bilardi'>Alessandra&nbsp;Bilardi</a>.&nbsp;All&nbsp;rights&nbsp;reserved.<br/><br/>
+			<br/>Copyright&nbsp;<!--&copy;&nbsp;-->2007-{{ site.time | date: '%Y' }}&nbsp;by&nbsp;<a href='http://about.me/alessandra.bilardi'>Alessandra&nbsp;Bilardi</a>.&nbsp;All&nbsp;rights&nbsp;reserved.<br/><br/>
 		</div>
 	</div>
 	<div class='right'>
@@ -33,7 +33,15 @@
 <br/><br/><a href='http://www.gimp.org'><img src='https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/comics/index/gimp.png' border='0' alt='Graphics by Gimp' /></a>
 <br/><br/><a href='http://www.kalsey.com/tools/buttonmaker/'><img src='https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/comics/index/buttonmaker.png' border='0' alt='Create Button Maker' /></a>
 <br/><br/><a href='http://alessandra.bilardi.net/'><img src='https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/comics/index/myhomepage.png' border='0' alt='My Home Page' /></a>
-<br/><br/><!-- Begin Shinystat Free code --><script type='text/javascript' language='JavaScript' src='http://codice.shinystat.com/cgi-bin/getcod.cgi?USER=bilardi'></script><noscript><a href='http://www.shinystat.com' target='_top'><img src='http://www.shinystat.com/cgi-bin/shinystat.cgi?USER=bilardi' alt='Blog counters' border='0'/></a></noscript><!-- End Shinystat Free code -->
+<br/><br/><!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '{{ site.owner.google.analytics }}', 'auto');
+  ga('send', 'pageview');
+</script>
 </p>
 	</div>
 </div>
